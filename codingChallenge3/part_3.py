@@ -119,6 +119,7 @@ print("Spring = " + str(sum(spring_season_list) / len(spring_season_list)))
 print("Summer = " + str(sum(summer_season_list) / len(summer_season_list)))
 print("Autumn = " + str(sum(autumn_season_list) / len(autumn_season_list)))
 print("Winter = " + str(sum(winter_season_list) / len(winter_season_list)))
+
 # 3.) Calculate the anomaly for each value in the dataset relative to the mean for the entire timeseries.
 overall_average = sum(value_list) / len(value_list)
 anomaly_dict = {}
@@ -130,4 +131,7 @@ with open("co2-ppm-daily.csv") as co2:
     for row in csv_reader:
         year_co2, month_co2, day = row[0].split("-")
         anomaly_dict[year_co2] = float(row[1]) - overall_average
-print(overall_average)
+print(anomaly_dict)
+
+# All looks great, just had to make one correction to your print statement on line 134 as it was printing the
+# overall average rather than the anomaly value

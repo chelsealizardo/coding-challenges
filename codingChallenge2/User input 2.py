@@ -41,3 +41,5 @@ def scrabble_score(word) -> int:
 print(scrabble_score(word))
 
 print('Thanks for playing! :)')
+
+# Best answer to this challenge I have seen ever, well done. It picked up on my erroneous inputs without a problem.

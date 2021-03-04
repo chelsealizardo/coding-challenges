@@ -8,18 +8,20 @@
 # Minimum of three arguments to be used.
 # You must do something interesting in 15 lines or less within the Python file.
 # Print or file generated output should be produced.
-"C:\Program Files\ArcGIS\Pro\bin\Python\envs\arcgispro-py3\python.exe"
-def main(arg):
-    print("My argument: " + str(arg))
 
-arguement_1 = main("hello! Here are three random interesting facts I bet you didnt know about!")
-arguement_2 = main("McDonald’s once made bubblegum-flavored broccoli in attempt to get kids to eat healthier!")
-arguement_3 = main("A cow-bison hybrid is called a “beefalo” and you can buy its meat in at least 21 states!")
-arguement_4 = main("Octopuses lay 56,000 eggs at a time.The mother spends six months so devoted to protecting the eggs that she doesn’t eat. The babies are the size of a grain of rice when they’re born.")
+import sys
 
-arguements = [arguement_1, arguement_2, arguement_3]
-print(arguements)
+def print_arg(arg):
+    for i in arg:
+        print("My argument: " + str(i))
 
 
+arguements = [sys.argv[1], sys.argv[2], sys.argv[3]]
+print(print_arg(arguements))
 
+
+
+# This did not work for me, you seem to have flipped the function of the bat and the python file.
+# I have fixed what you have produced. your input from the bat is Argument1 Argument2 Argument3, all the python
+# script does is read those variables in and prints them. We should chat about this.
 

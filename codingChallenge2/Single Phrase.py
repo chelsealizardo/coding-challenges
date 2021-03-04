@@ -19,3 +19,5 @@ def word_count(str):
     return counts
 
 print( word_count('hi dee hi how are you mr dee'))
+
+# Another good solve, well done.

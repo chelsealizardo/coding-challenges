@@ -9,7 +9,7 @@
 import os
 
 # Create the directory
-main_dir = "C:\data\codingChallenge3\Main_dir"
+main_dir = "C:\Main_dir"
 os.mkdir(main_dir)
 
 # Now make folders
@@ -34,5 +34,9 @@ for folder in posted:
     os.mkdir(os.path.join(main_dir, "layouts\post", folder))
 
 # delete all folders
-# import shutil
-# shutil.rmtree("Main_dir")
+import shutil
+shutil.rmtree(main_dir)
+
+# Had a little issue with the fact that your main_dir was so deep, that I had to just create a single folder.
+# your rmtree works for you if Main_dir is in the same folder as the script, not for me, so I merely used your
+# main_dir variable to delete it.
