@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin/>
+                <origin/>
+                <pubdate>19950101</pubdate>
+                <title>Bikeways and Trails</title>
+                <geoform>vector digital data</geoform>
+                <pubinfo>
+                    <pubplace/>
+                    <publish>RIGIS</publish>
+                </pubinfo>
+                <othercit>Suggested bibliographic reference: RIGIS, 1995. Bikeways and Trails of Rhode Island; bikeways. Rhode Island Geographic Information System (RIGIS) Data Distribution System, URL: http://www.rigis.org, Environmental Data Center, University of Rhode Island, Kingston, Rhode Island (last date accessed: 14 October 2014).</othercit>
+                <onlink>http://services2.arcgis.com/S8zZg9pg23JUEexQ/arcgis/rest/services/Bikeways_and_Trails/FeatureServer</onlink>
+                <onlink>http://data.rigis.org/TRANS/bikeways.zip</onlink>
+                <lworkcit>
+                    <citeinfo>
+                        <pubdate>19950101</pubdate>
+                        <title>RIGIS Database</title>
+                    </citeinfo>
+                </lworkcit>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>Existing and proposed state and local bikeways and trails as included in RI state greenways plan. Includes RIDOT bikeways and the RIDEM North-South trail. 
+Intended for use in general planning and mapping.</abstract>
+            <purpose>Existing and proposed state and local bikeways and trails as included in RI state greenways plan.</purpose>
+        </descript>
+        <timeperd>
+            <timeinfo>
+                <sngdate>
+                    <caldate>19950101</caldate>
+                </sngdate>
+            </timeinfo>
+            <current>publication date</current>
+        </timeperd>
+        <status>
+            <progress>Complete</progress>
+            <update>None planned</update>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-180</westbc>
+                <eastbc>180</eastbc>
+                <northbc>90</northbc>
+                <southbc>-90</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>existing-proposed</themekey>
+                <themekey>trails</themekey>
+                <themekey>018</themekey>
+                <themekey>hiking</themekey>
+                <themekey>transportation</themekey>
+                <themekey>bikeways</themekey>
+                <themekey>greenways</themekey>
+            </theme>
+            <theme>
+                <themekt>ISO 19115 Topic Category</themekt>
+            </theme>
+            <place>
+                <placekt>GNIS</placekt>
+                <placekey>United States</placekey>
+                <placekey>Rhode Island</placekey>
+                <placekey>New England</placekey>
+                <placekey>northeast</placekey>
+            </place>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>These data are shared under the RIGIS license agreement, which can be viewed below: This
+ dataset is provided 'as is.’ The producer(s) of this dataset, 
+contributors to this dataset, the Rhode Island Geographic Information 
+System (RIGIS) consortium, the State of Rhode Island, and the University
+ of Rhode Island do not make any warranties of any kind for this 
+dataset, and are not liable for any loss or damage however and whenever 
+caused by any use of this dataset.Please acknowledge both RIGIS 
+and the primary producer(s) of this dataset in any derived products.  
+Versions of the RIGIS logo suitable for both printed and web-based 
+products are available at http://www.rigis.org/logos.</useconst>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Rhode Island Department of Transportation</cntorg>
+                    <cntper>Stephen Kut</cntper>
+                </cntorgp>
+                <cntpos>GIS Manager</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>Two Capitol Hill</address>
+                    <city>Providence</city>
+                    <state>RI</state>
+                    <postal>02903</postal>
+                </cntaddr>
+                <cntvoice>401-222-6935 x4485</cntvoice>
+                <cntemail>stephen.kut@dot.ri.gov</cntemail>
+            </cntinfo>
+        </ptcontac>
+        <browse>
+            <browsen>http://www.rigis.org/images/metadata/transportation/bikeways_trails.gif</browsen>
+            <browset>GIF</browset>
+        </browse>
+        <datacred>URI EDC, RIGIS; RI Dept. of Transportation; RI Dept. of Environmental Management. Icon Credit: Sergey Krivoy via The Noun Project</datacred>
+        <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.4.1.5686</native>
+    </idinfo>
+    <dataqual>
+        <attracc>
+            <attraccr>RIGIS standards 99 percent; manual comparisons to source data</attraccr>
+        </attracc>
+        <logic>manual comparisons to source data</logic>
+        <complete>RMS 005 fuzzy 002; topologically complete arc-info coverage</complete>
+        <posacc>
+            <horizpa>
+                <horizpar>plus or minus 200 feet</horizpar>
+            </horizpa>
+        </posacc>
+        <lineage>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <pubdate>19921994</pubdate>
+                        <title>A greener path RIDOA planning 1994</title>
+                    </citeinfo>
+                </srccite>
+                <srcscale>24000</srcscale>
+                <typesrc>None</typesrc>
+                <srccitea>A greener path RIDOA planning 1994</srccitea>
+                <srccontr>Provided Data</srccontr>
+            </srcinfo>
+            <procstep>
+                <procdesc>Transferred data to USGS quad base for digitizing data digitized and coded for greenways type quads joined to form statewide coverage.</procdesc>
+                <procdate>19921994</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Updated Point of Contact information for this dataset for Stephen Kut as the email has changed.</procdesc>
+                <procdate>20150528</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>University of Rhode Island Environmental Data Center</cntorg>
+                            <cntper>Erica Tefft</cntper>
+                        </cntorgp>
+                        <cntpos>Research Associate</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>1 Greenhouse Road</address>
+                            <address>Coastal Institute</address>
+                            <city>Kingston</city>
+                            <state>RI</state>
+                            <postal>02881</postal>
+                        </cntaddr>
+                        <cntvoice>401-874-5054</cntvoice>
+                        <cntemail>erica@edc.uri.edu</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Converted E00 to coverage using the "Import from E00" tool; then used the "Feature Class to Shapefile" tool to create a shapefile from the coverage.</procdesc>
+                <procdate>20150701</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>University of Rhode Island Environmental Data Center</cntorg>
+                            <cntper>Erica Tefft</cntper>
+                        </cntorgp>
+                        <cntpos>Research Associate</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>1 Greenhouse Road</address>
+                            <address>Coastal Institute</address>
+                            <city>Kingston</city>
+                            <state>RI</state>
+                            <postal>02881</postal>
+                        </cntaddr>
+                        <cntvoice>401-874-5054</cntvoice>
+                        <cntemail>erica@edc.uri.edu</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+        </lineage>
+    </dataqual>
+    <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <sdtstype>String</sdtstype>
+                <ptvctcnt>612</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>TRANS_Bikeways_and_Trails</enttypl>
+                <enttypd>Arc Attribute Table</enttypd>
+                <enttypds>None</enttypds>
+            </enttyp>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Shape</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Coordinates defining the features.</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Shape_Length</attrlabl>
+                <attrdef>Length of feature in internal units.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Positive real numbers that are automatically generated.</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>GWTYPE</attrlabl>
+            </attr>
+        </detailed>
+        <overview>
+            <eaover>his file lists the Greenspace 2000 greenway type code values for: Bikeways and Trails CODE Value Greenway Type 0 Not a Greenway 1 Bikeway/Bike route - State Proposed 2 Bikeway/Bike route - Local Proposed 5 Trail Corridor - Local Existing 6 North-South Trail Corridor - State Proposed 7 Trail Corridor - Local Proposed 13 East Bay Bikeway - State Existing</eaover>
+            <eadetcit>RIDOT</eadetcit>
+        </overview>
+    </eainfo>
+    <distinfo>
+        <distrib>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>University of Rhode Island Environmental Data Center</cntorg>
+                    <cntper>Erica Tefft</cntper>
+                </cntorgp>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>1 Greenhouse Road</address>
+                    <city>Kingston</city>
+                    <state>RI</state>
+                    <postal>02881</postal>
+                </cntaddr>
+                <cntvoice>401-874-5054</cntvoice>
+                <cntemail>erica@edc.uri.edu</cntemail>
+                <cntinst>email preferred</cntinst>
+            </cntinfo>
+        </distrib>
+        <distliab>See access and use constraints information.</distliab>
+        <stdorder>
+            <digform>
+                <digtinfo>
+                    <formname>Esri shapefile</formname>
+                    <filedec>ZIP</filedec>
+                </digtinfo>
+                <digtopt>
+                    <onlinopt>
+                        <computer>
+                            <networka>
+                                <networkr>http://www.rigis.org</networkr>
+                            </networka>
+                        </computer>
+                    </onlinopt>
+                </digtopt>
+            </digform>
+            <fees>No fee for downloading directly from the RIGIS Data Distribution System located at http://www.rigis.org.</fees>
+        </stdorder>
+    </distinfo>
+    <metainfo>
+        <metd>20161115</metd>
+        <metc>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>RI Department of Administration; Division of Information Technology</cntorg>
+                </cntorgp>
+                <cntpos>RIGIS Coordinator</cntpos>
+                <cntaddr>
+                    <addrtype>mailing</addrtype>
+                    <address>1 Capitol Hill</address>
+                    <city>Providence</city>
+                    <state>Rhode Island</state>
+                    <postal>02908</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>401-222-6483</cntvoice>
+                <cntfax>401-222-6482</cntfax>
+                <cntemail>rigis@admin.ri.gov</cntemail>
+                <hours>8:00 - 3:30</hours>
+                <cntinst>E-mail preferred</cntinst>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>
