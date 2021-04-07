@@ -19,7 +19,7 @@ arcpy.CheckOutExtension("Spatial")
 arcpy.env.overwriteOutput = True
 
 
-directory = r"C:\data\Toolbox_Midterm"
+directory = r"C:\Data\Students_2021\Lizardo\coding-challenges\Toolbox_Midterm"
 arcpy.env.workspace = directory
 tempDirectory = os.path.join(directory, "intermediate_files")
 if not os.path.exists(tempDirectory):
@@ -32,7 +32,7 @@ if not os.path.exists(tempDirectory):
 # Instead of working with the entire state of RI, I want to specifically work with Narragansett and use that
 # as my extent
 
-in_features = r"C:\data\Toolbox_Midterm\Municipalities__1997_-shp\towns.shp"
+in_features = os.path.join(directory, r"Municipalities__1997_-shp", "towns.shp")
 out_feature_class = os.path.join(tempDirectory, "Narragansett.shp")
 where_clause = '"NAME" = ' + "'NARRAGANSETT'"
 
