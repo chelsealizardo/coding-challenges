@@ -17,9 +17,10 @@ ________________________________________________________________________________
  
  
  ### *Buffer by 100 meters tool* :
- <font size=".01"> 
- 
+ <font size=".01">  For the Buffer tool, you can add a minimum of two inputes that takes in a feature class and an output location for the file that is then generated. The tool then adds a 100 meter buffer to the file. </font>
+
  ______________________________________________________________________________________________________________________________________________________________________________
 
- ### *NDVI tool* :
+ ### *NDVI tool* : 
+ <font size=".01"> For my NDVI tool, there are 2-3 inputs and an output location. The input images have to be a new-infrared band and red visible light band for this calculation, otherwise it will not work. I used the data we used in class but had difficulties uploading it to GitHub. </font>
 
